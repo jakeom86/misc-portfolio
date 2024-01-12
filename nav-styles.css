@@ -1,0 +1,39 @@
+.nav-bar {
+    height: 104px;
+    background-color: var(--portfolio_black);
+    display: flex;
+}
+
+.nav-bar_content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--heading_font-family);
+}
+
+.logo {
+    background-color: var(--white);
+    height: 48px;
+    width: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    color: var(--portfolio_black)
+}
+
+.nav-bar_items {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    font-size: var(--h4-font-size);
+    color: var(--white);
+}
+
+.nav-bar_items a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--white);
+}

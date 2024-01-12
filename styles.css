@@ -1,0 +1,102 @@
+/* Skills list */
+
+.skills-list {
+    display: flex;
+    margin-bottom: var(--dsktp-margin_lg);
+    flex-wrap: wrap;
+    
+}
+
+.skills-list_item {
+    border-radius: 30px;
+    /* padding: 12px 24px 12px 24px; */
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    font-weight: bold;
+    color: var(--portfolio_black);
+}
+
+.skills-list_item span {
+    padding: 12px 24px 12px 24px;
+    vertical-align: center;
+    display: inline-block;
+}
+
+.skills-list_item:nth-of-type(1) {
+    background-color: var(--portfolio_yellow); 
+}
+
+.skills-list_item:nth-of-type(2) {
+    background-color: var(--portfolio_red);
+}
+
+.skills-list_item:nth-of-type(3) {
+    background-color: var(--portfolio_blue);
+}
+
+.skills-list_item:nth-of-type(4) {
+    background-color: var(--portfolio_green) 
+}
+
+
+.hero-image {
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+
+
+
+.collection-card_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: var(--dsktp-marin_mid-2)
+}
+
+.content-card_wrapper {
+    height: 360px; /* Add to media queries */
+    /* width: 33%; Add to media queries */
+    border: 1px solid var(--portfolio_dark-grey);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.content-card_image-container {
+    min-height: 160px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover; /* may not need this */
+}
+
+.content-card_text-container {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* padding-bottom: 16px;
+    overflow: hidden; */
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+    max-height: 200px;
+}
+
+.content-card_heading {
+    margin-top: var(--dsktp-margin_mid);
+    margin-bottom: var(--dsktp-margin_sml);
+    line-height: 28px;
+}
+
+.content-card_text {
+    max-height: 80px;
+}
+
+.content-card_wrapper:hover {
+    transform: translate(-10px, -10px); /* Lift up and to the left by 10px */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Larger box shadow */
+    cursor: pointer;
+}
+
+
+

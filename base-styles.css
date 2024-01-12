@@ -1,0 +1,68 @@
+:root {
+
+/* COLOURS */
+
+    --white: #ffffff;
+    --portfolio_red: #F74C39;
+    --portfolio_purple: #7731D4;
+    --portfolio_blue: #42CEEB;
+    --portfolio_green: #52D431;
+    --portfolio_yellow: #F4CD5A;
+    --portfolio_black: #212429;
+    --portfolio_dark-grey:#495057;
+    --portfolio_mid-grey: #ACB5BD;
+    --portfolio_light-grey: #DDE2E5;
+    --portfolio_v-light-grey: #F8F9FA;
+
+/* TYPOGRAPHY */
+
+    /* fonts */
+    --heading_font-family: 'Angkor', sans-serif;
+    --body_font-family: 'Overpass', sans-serif;
+    /* headings */
+    --impact-h1_font-size: 90px;
+    --impact-h1_line-height: 90px;
+    --h1_font-size: 67px;
+    --h1_line-height: 84px;
+    --h2_font-size: 52px;
+    --h2_line-height: 78px;
+    --h3_font-size: 38px;
+    --h3_line-height: 56px;
+    --h4_font-size: 28px;
+    --h4_line-height: 42px;
+    --headings_bottom-margin_desktop: 32px;
+    --headings_top-margin_desktop: 40px;
+    /* Body copy */
+    --body-text_font-size: 21px;
+    --body-text_line-height: 32px;
+    --body-text_bottom-margin_desktop: 32px;
+    --body-text_top-margin_desktop: 40px;
+
+/* MARGINS */
+
+    --dsktp-margin_lg: 40px;
+    --dsktp-margin_mid: 32px;
+    --dsktp-marin_mid-2: 24px;
+    --dsktp-margin_sml: 16px;
+    --dsktp-margin_v-sml: 8px;
+
+
+/* PAGE WIDTH */
+
+    --max-width_desktop: 1000px;
+    --max-width_tablet: 95%;
+    --max-width_mobile: 95%;
+}
+
+body {
+    line-height: var(--body-text_line-height);
+    margin: 0 auto;
+    /* max-width: var(--max-width_desktop); */
+}
+
+.page-width {
+    margin: 0 auto;
+    max-width: var(--max-width_desktop);
+}
+
+

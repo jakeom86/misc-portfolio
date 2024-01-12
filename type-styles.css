@@ -1,0 +1,42 @@
+    body {
+        font-size: var(--body-text_font-size);
+        font-family: var(--body_font-family);
+        color: var(--portfolio_dark-grey);
+        line-height: var(--body-text_line-height);
+    }
+    
+    h1,h2,h3,h4 {
+        font-family: var(--heading_font-family);
+        color: var(--portfolio_black);
+        margin-bottom: var(--dsktp-margin_mid);
+    }
+    
+    .impact-h1 {
+        font-size: var(--impact-h1_font-size);
+        line-height: var(--impact-h1_line-height);
+    }
+    
+    h1 {
+        font-size: var(--h1_font-size);
+        line-height: var(--h1_line-height);
+    }
+    
+    h2 {
+        font-size: var(--h2_font-size);
+        line-height: var(--h2_line-height);
+    }
+    
+    h3 {
+        font-size: var(--h3_font-size);
+        line-height: var(--h3_line-height);
+    }
+    
+    h4 {
+        font-size: var(--h4_font-size);
+        line-height: var(--h4_line-height);
+    }
+
+    p {
+        color: var(--portfolio_dark-grey);
+        margin-bottom: var(--dsktp-margin_mid);
+    }

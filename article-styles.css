@@ -1,0 +1,30 @@
+.article-header_image-container {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.article-header_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    margin-bottom: var(--dsktp-margin_lg)
+}
+
+.two-third-text-with-image {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 24px;
+    align-items: start;
+}
+
+.two-thirds-text {
+    grid-column: 1; 
+    margin-top: 0px;
+}
+
+.one-third-image {
+    grid-column: 2; 
+    max-width: 100%; 
+}
